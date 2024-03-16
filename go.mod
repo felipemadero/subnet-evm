@@ -2,6 +2,8 @@ module github.com/ava-labs/subnet-evm
 
 go 1.21
 
+replace github.com/ava-labs/avalanchego => ../avalanchego/
+
 require (
 	github.com/VictoriaMetrics/fastcache v1.10.0
 	github.com/ava-labs/avalanchego v1.11.2
